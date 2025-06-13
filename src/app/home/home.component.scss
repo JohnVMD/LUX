@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'jetBrainsMono';
+    src: url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,700&display=swap);
+} // JetBrains mono for titles, import from Google Fonts
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(116, 248, 182);
+    height: 100%;
+    padding-top: 2rem;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: "jetBrainsMono", monospace;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: right;
+}
+p {
+    font-size: 18px;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
