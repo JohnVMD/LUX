@@ -1,11 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: none;
+    padding: none;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 5%);
 }
 
 .container {
@@ -15,7 +14,7 @@ body {
     grid-template-columns: 1fr 4fr;
     gap: 10px;
     height: 100%;
-    background-color: rgba($color: #ffffff00, $alpha: 1.0)
+    background-color: hsl(330, 6%, 6%);
 }
 
 // Areas of the page
