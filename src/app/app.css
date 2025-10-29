@@ -1,9 +1,9 @@
 .content {
   display: flex;
-  background-color: rgb(0, 170, 255);
+  background-color: rgba(0, 170, 255, 0.2);
   justify-self: center;
   width: 50%;
-  transform: translate(0, 100%);
+  transform: translate(0, 50%);
   flex-direction: column;
 }
 
