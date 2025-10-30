@@ -16,10 +16,15 @@ h1 {
   letter-spacing: -0.125rem;
   font-style: bold;
 }
-
-p {
-  color: var(--gray-700);
+h2 {
   color: #1a1715;
+  font-weight: 700;
   line-height: 100%;
   letter-spacing: -0.125rem;
+  font-style: bold;
+}
+
+p {
+  color: #1a1715;
+  line-height: 150%;
 }
