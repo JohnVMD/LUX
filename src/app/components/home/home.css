@@ -9,10 +9,16 @@
   background-color: rgba(0, 170, 255, 0); /* for debuglol */
 }
 
+h1 a:hover{
+  color: #fd4319;
+}
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
   color: #1a1715;
+}
+ul a:hover {
+  text-transform: uppercase;
 }
