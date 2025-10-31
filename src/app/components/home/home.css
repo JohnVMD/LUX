@@ -25,10 +25,10 @@ ul {
 }
 /* Link selection dashes "the -- there :)" */
 ul li::marker {
-  content: "-  ";
+  content: ">  ";
   color:#1a1715 ;
 }
 ul li:hover::marker {
-  content: "-- ";
+  content: " > ";
   color: #fd4319;
 }
