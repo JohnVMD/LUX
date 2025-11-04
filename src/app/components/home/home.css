@@ -23,6 +23,9 @@ ul {
   padding-left: 2em;
   /* text-align: right; */
 }
+ul li:hover {
+  text-transform: uppercase;
+}
 /* Link selection dashes "the -- there :)" */
 ul li::marker {
   content: ">  ";

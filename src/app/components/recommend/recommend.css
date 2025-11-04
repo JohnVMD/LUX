@@ -9,6 +9,17 @@
   background-color: rgba(0, 170, 255, 0); /* for debuglol */
 }
 
+h6 a{
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #1a1715;
+  font-weight: 700;
+  text-decoration: none;
+}
+h6 a:hover {
+  color: #fd4319;
+}
+
 p em {
-    color: #fd4319;
+  color: #fd4319;
 }
