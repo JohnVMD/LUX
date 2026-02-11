@@ -2,17 +2,18 @@
   display: flex;
   margin-inline: auto;
   width: 50%;
-  transform: translate(0, 50%);
+  transform: translate(0, 20%);
 
   flex-direction: column;
 
-  background-color: rgba(0, 170, 255, 0); /* for debuglol */
+  background-color: rgba(0, 170, 255, 0); /* for debug */
 }
 
 a {
   position: relative;
   text-decoration:none;
   color: #1a1715;
+  transition: color 0.3s;
 }
 h1 a:hover{
   color: #fd4319;
@@ -20,18 +21,11 @@ h1 a:hover{
 
 ul {
   list-style:none;
-  padding-left: 2em;
   /* text-align: right; */
+} li {
+  transition: all 0.3s;
 }
 ul li:hover {
   text-transform: uppercase;
-}
-/* Link selection dashes "the -- there :)" */
-ul li::marker {
-  content: ">  ";
-  color:#1a1715 ;
-}
-ul li:hover::marker {
-  content: " > ";
-  color: #fd4319;
+  padding-left: 1em;
 }
