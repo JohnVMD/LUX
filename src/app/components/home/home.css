@@ -1,7 +1,7 @@
 .content {
   display: flex;
   margin-inline: auto;
-  width: 50%;
+  width: 60%;
   transform: translate(0, 20%);
 
   flex-direction: column;
@@ -13,19 +13,17 @@ a {
   position: relative;
   text-decoration:none;
   color: #1a1715;
-  transition: color 0.3s;
-}
-h1 a:hover{
+  transition: color 0.35s;
+} a:hover {
   color: #fd4319;
 }
 
 ul {
   list-style:none;
-  /* text-align: right; */
-} li {
-  transition: all 0.3s;
-}
-ul li:hover {
+} 
+li {
+  transition: all 0.35s;
+} ul li:hover {
   text-transform: uppercase;
   padding-left: 1em;
 }

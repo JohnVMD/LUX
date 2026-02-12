@@ -11,6 +11,10 @@
 
 a {
   text-decoration: none;
+  transition: all 0.35s;
+}
+a:hover {
+  padding-left: 1em;
 }
 
 p em {
