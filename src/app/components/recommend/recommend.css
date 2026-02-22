@@ -2,21 +2,30 @@
   display: flex;
   margin-inline: auto;
   width: 75%;
-  margin-top: 64px;
+  margin-top: 5em;
+  margin-bottom: 5em;
 
   flex-direction: column;
 
   background-color: rgba(0, 170, 255, 0); /* for debuglol */
 }
 
+h2 {
+  font-weight: 500;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+em {
+  color: #fd4319;
+}
 a {
+  color: #fd4319;
   text-decoration: none;
   transition: all 0.35s;
 }
 a:hover {
-  padding-left: 1em;
+  text-transform: uppercase;
 }
-
-p em {
-  color: #fd4319;
+em a:hover {
+  padding-left: 1em;
 }
